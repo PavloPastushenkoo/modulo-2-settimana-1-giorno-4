@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    background-color: #666666;
+
+  }
+  
+  a{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+
+
+#contenitorePostIt1{
+    padding-top: 30px;
+    height: 40vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: none;
+    background-color: #666666;
+}
+
+#contenitorePostIt2{
+    align-items: center;
+    height:40vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: none;
+    background-color: #666666;
+}
+
+.postIt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 20%;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+div b{
+    font-size: 2em;
+}
+div p{
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.transizione{
+        transition: transform 0.5s ease, scale 0.5s ease;
+}
+.rotazione1{
+    transform: rotate(17deg);
+}
+
+.transizione:hover{
+    transform: rotate(0deg) scale(1.2);
+}
+
+
+.rotazione2{
+    transform: rotate(-15deg);
+
+}
+.rotazione3{
+    transform: rotate(5deg);
+
+}
+.rotazione4{
+    transform: rotate(-10deg);
+}
+
+
+.colore1{
+    background-image: linear-gradient(to bottom, rgba(247, 247, 197, 1), rgba(189, 189, 163, 1));
+}
+
+.colore2{
+    background-image: linear-gradient(to bottom, rgba(202, 202, 250, 1), rgba(141, 141, 157, 1));
+}
+
+.colore3{
+    background-image: linear-gradient(to bottom, rgba(202, 252, 203, 1), rgba(157, 181, 160, 1));
+}
+
+.colore4{
+    background-image: linear-gradient(to bottom, rgb(252, 202, 202), rgb(181, 157, 157));
+}
+
