@@ -24,7 +24,7 @@ a:link, a:visited{
 
 
 #contenitorePostIt1{
-    padding-top: 30px;
+    padding-top: 10vh;
     height: 40vh;
     width: 100vw;
     flex-wrap: wrap;
